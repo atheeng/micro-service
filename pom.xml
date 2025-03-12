@@ -11,6 +11,7 @@
 	<groupId>com.theeng</groupId>
 	<artifactId>limit-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
 	<name>limit-service</name>
 	<description>limit services</description>
 	<url/>
@@ -20,6 +21,9 @@
 	<developers>
 		<developer/>
 	</developers>
+	<modules>
+		<module>exchange-currency</module>
+	</modules>
 	<scm>
 		<connection/>
 		<developerConnection/>
